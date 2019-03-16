@@ -7,5 +7,5 @@ cd "..\..\..\launcher\build\libs"
 ren "launcher-*.*.*-all.jar" "launcher.jar"
 "%JAVA_HOME%\bin\pack200.exe" --no-gzip launcher.jar.pack launcher.jar
 cd "..\..\..\launcher-bootstrap\build\libs"
-ren "launcher-bootstrap-*.*.*.jar" "launcher-bootstrap.jar"
+ren "launcher-bootstrap-*.*.*-all.jar" "launcher-bootstrap.jar"
 pause
